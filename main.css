@@ -5,14 +5,34 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    padding: .5rem;
+}
+
+h2{
+    color: #fff;
+}
+
 .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     background-color: #333;
-    padding: 1rem;
+    padding: .5rem 5rem;
     margin-top: 1rem;
 }
 
 .draggable {
-    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    padding: 1.2rem;
     background-color: #fff;
     border: 1px solid black;
     cursor: move;
